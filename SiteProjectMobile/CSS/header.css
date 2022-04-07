@@ -1,0 +1,312 @@
+.header{
+    position: absolute;
+    height: 1188px;
+    left: 2px;
+    right: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+.header-navbar-style{
+    position: absolute;
+    height: 532px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #F7F7F7;
+}
+.header-navbar-brand{
+    position: absolute;
+    width: 187px;
+    height: 58px;
+    left: calc(50% - 187px/2 - 78.5px);
+    top: 23px;
+}
+.header-navbar-h3{
+    position: absolute;
+width: 76px;
+height: 32px;
+left: 0px;
+top: 13px;
+font-family: 'Martel';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.1px;
+color: #252B42;
+}
+.header-navbar-ico-search{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2 + 53px);
+    top: 40px;
+}
+.header-navbar-ico-shopping{
+    position: absolute;
+    width: 24px;
+    height: 22.4px;
+    left: calc(50% - 24px/2 + 101px);
+    top: 41px;
+}
+.header-navbar-ico-menu{
+    position: absolute;
+    width: 24px;
+    height: 13.71px;
+    left: calc(50% - 24px/2 + 157px);
+    top: 45px;
+}
+.header-navbar-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 112px;
+    height: 270px;
+    left: calc(50% - 112px/2 - 0.5px);
+    top: calc(50% - 400px/2 + 33px);
+}
+.header-navbar-mobile-menu-1{
+    position: static;
+    left: 11.61%;
+    right: 11.61%;
+    top: 0%;
+    bottom: 83.33%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 30px 0px;
+}
+.header-navbar-mobile-menu-2{
+    position: static;
+left: 0%;
+right: 0%;
+top: 27.78%;
+bottom: 55.56%;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #737373;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 30px 0px;
+}
+.header-navbar-mobile-menu-3{
+    position: static;
+    left: 7.14%;
+    right: 7.14%;
+    top: 55.56%;
+    bottom: 27.78%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 30px 0px;
+}
+.header-navbar-mobile-menu-4{
+    position: static;
+left: 1.34%;
+right: 1.34%;
+top: 83.33%;
+bottom: 0%;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #737373;
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 30px 0px;
+}
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 80px 0px;
+    position: absolute;
+    width: 414px;
+    height: 580px;
+    left: calc(50% - 414px/2);
+    top: 532px;
+    background: url(woman.jpg);
+}
+.header-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 414px;
+    height: 550px;
+    left: calc(50% - 414px/2);
+    top: 80px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+.header-main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 418px;
+    height: 471px;
+    left: calc(50% - 418px/2);
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+.header-cta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 182px;
+    height: 121px;
+    left: 118px;
+    top: 350px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 40px 0px;
+}
+.header-h1{
+    position: static;
+    width: 327px;
+    height: 150px;
+    left: 45.5px;
+    top: 0px;
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 40px 0px;
+}
+.header-h4{
+    position: static;
+    width: 279px;
+    height: 120px;
+    left: 69.5px;
+    top: 190px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 40px 0px;
+}
+.header-button-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    width: 182px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    background: #784F33;
+    border-radius: 37px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 25px 0px;
+}
+.header-button-text-1{
+    position: static;
+    left: 19.78%;
+    right: 19.78%;
+    top: 20.83%;
+    bottom: 20.83%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+.header-button-2{
+    display: flex;
+flex-direction: column;
+align-items: center;
+position: static;
+width: 155px;
+height: 48px;
+left: 13.5px;
+top: 73px;
+border: 1px solid #784F33;
+box-sizing: border-box;
+border-radius: 37px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 25px 0px;
+}
+.header-button-text-2{
+    position: static;
+left: 23.23%;
+right: 23.23%;
+top: 20.83%;
+bottom: 20.83%;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #784F33;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
